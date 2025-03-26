@@ -1,0 +1,957 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FF1DED52D8A6861004323D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF1DED42D8A6861004323D8 /* AppDelegate.swift */; };
+		1FF1DED72D8A6861004323D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF1DED62D8A6861004323D8 /* SceneDelegate.swift */; };
+		1FF1DEDA2D8A6861004323D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DED82D8A6861004323D8 /* LaunchScreen.storyboard */; };
+		1FF1DEDD2D8A6861004323D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DEDB2D8A6861004323D8 /* Main.storyboard */; };
+		1FF1DEE62D8A6861004323D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF1DEE52D8A6861004323D8 /* AppDelegate.swift */; };
+		1FF1DEE92D8A6861004323D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DEE72D8A6861004323D8 /* Main.storyboard */; };
+		1FF1DEF12D8A6861004323D8 /* CIA Font Style fix Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1FF1DEF02D8A6861004323D8 /* CIA Font Style fix Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FF1DEFB2D8A6861004323D8 /* CIA Font Style fix Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1FF1DEFA2D8A6861004323D8 /* CIA Font Style fix Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FF1DF012D8A6861004323D8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DEC42D8A6860004323D8 /* Main.html */; };
+		1FF1DF022D8A6861004323D8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DEC42D8A6860004323D8 /* Main.html */; };
+		1FF1DF032D8A6861004323D8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DEC62D8A6860004323D8 /* Icon.png */; };
+		1FF1DF042D8A6861004323D8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DEC62D8A6860004323D8 /* Icon.png */; };
+		1FF1DF052D8A6861004323D8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DEC72D8A6860004323D8 /* Style.css */; };
+		1FF1DF062D8A6861004323D8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DEC72D8A6860004323D8 /* Style.css */; };
+		1FF1DF072D8A6861004323D8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DEC82D8A6860004323D8 /* Script.js */; };
+		1FF1DF082D8A6861004323D8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DEC82D8A6860004323D8 /* Script.js */; };
+		1FF1DF092D8A6861004323D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF1DEC92D8A6860004323D8 /* ViewController.swift */; };
+		1FF1DF0A2D8A6861004323D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF1DEC92D8A6860004323D8 /* ViewController.swift */; };
+		1FF1DF0B2D8A6861004323D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DECA2D8A6861004323D8 /* Assets.xcassets */; };
+		1FF1DF0C2D8A6861004323D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DECA2D8A6861004323D8 /* Assets.xcassets */; };
+		1FF1DF0D2D8A6861004323D8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF1DECC2D8A6861004323D8 /* SafariWebExtensionHandler.swift */; };
+		1FF1DF0E2D8A6861004323D8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF1DECC2D8A6861004323D8 /* SafariWebExtensionHandler.swift */; };
+		1FF1DF242D8A6861004323D8 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DF202D8A6861004323D8 /* styles.css */; };
+		1FF1DF252D8A6861004323D8 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DF212D8A6861004323D8 /* icons */; };
+		1FF1DF262D8A6861004323D8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DF222D8A6861004323D8 /* manifest.json */; };
+		1FF1DF272D8A6861004323D8 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DF232D8A6861004323D8 /* LICENSE.txt */; };
+		1FF1DF282D8A6861004323D8 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DF202D8A6861004323D8 /* styles.css */; };
+		1FF1DF292D8A6861004323D8 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DF212D8A6861004323D8 /* icons */; };
+		1FF1DF2A2D8A6861004323D8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DF222D8A6861004323D8 /* manifest.json */; };
+		1FF1DF2B2D8A6861004323D8 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1FF1DF232D8A6861004323D8 /* LICENSE.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FF1DEF22D8A6861004323D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FF1DEBE2D8A6860004323D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FF1DEEF2D8A6861004323D8;
+			remoteInfo = "CIA Font Style fix Extension (iOS)";
+		};
+		1FF1DEFC2D8A6861004323D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FF1DEBE2D8A6860004323D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FF1DEF92D8A6861004323D8;
+			remoteInfo = "CIA Font Style fix Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1FF1DF142D8A6861004323D8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1FF1DEF12D8A6861004323D8 /* CIA Font Style fix Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF1DF1B2D8A6861004323D8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1FF1DEFB2D8A6861004323D8 /* CIA Font Style fix Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1FF1DEC52D8A6860004323D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		1FF1DEC62D8A6860004323D8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1FF1DEC72D8A6860004323D8 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		1FF1DEC82D8A6860004323D8 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		1FF1DEC92D8A6860004323D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FF1DECA2D8A6861004323D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FF1DECC2D8A6861004323D8 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		1FF1DED12D8A6861004323D8 /* CIA Font Style fix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CIA Font Style fix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF1DED42D8A6861004323D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FF1DED62D8A6861004323D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1FF1DED92D8A6861004323D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FF1DEDC2D8A6861004323D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FF1DEDE2D8A6861004323D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF1DEE32D8A6861004323D8 /* CIA Font Style fix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CIA Font Style fix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF1DEE52D8A6861004323D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FF1DEE82D8A6861004323D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FF1DEEA2D8A6861004323D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF1DEEB2D8A6861004323D8 /* CIA Font Style fix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CIA Font Style fix.entitlements"; sourceTree = "<group>"; };
+		1FF1DEF02D8A6861004323D8 /* CIA Font Style fix Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CIA Font Style fix Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF1DEF52D8A6861004323D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF1DEFA2D8A6861004323D8 /* CIA Font Style fix Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CIA Font Style fix Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF1DEFF2D8A6861004323D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF1DF002D8A6861004323D8 /* CIA Font Style fix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CIA Font Style fix.entitlements"; sourceTree = "<group>"; };
+		1FF1DF202D8A6861004323D8 /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = styles.css; path = "../../../chrome-firefox/styles.css"; sourceTree = "<group>"; };
+		1FF1DF212D8A6861004323D8 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = "../../../chrome-firefox/icons"; sourceTree = "<group>"; };
+		1FF1DF222D8A6861004323D8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../../chrome-firefox/manifest.json"; sourceTree = "<group>"; };
+		1FF1DF232D8A6861004323D8 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE.txt; path = "../../../chrome-firefox/LICENSE.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FF1DECE2D8A6861004323D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF1DEE02D8A6861004323D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF1DEED2D8A6861004323D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF1DEF72D8A6861004323D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FF1DEBD2D8A6860004323D8 = {
+			isa = PBXGroup;
+			children = (
+				1FF1DEC22D8A6860004323D8 /* Shared (App) */,
+				1FF1DECB2D8A6861004323D8 /* Shared (Extension) */,
+				1FF1DED32D8A6861004323D8 /* iOS (App) */,
+				1FF1DEE42D8A6861004323D8 /* macOS (App) */,
+				1FF1DEF42D8A6861004323D8 /* iOS (Extension) */,
+				1FF1DEFE2D8A6861004323D8 /* macOS (Extension) */,
+				1FF1DED22D8A6861004323D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FF1DEC22D8A6860004323D8 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1FF1DEC92D8A6860004323D8 /* ViewController.swift */,
+				1FF1DECA2D8A6861004323D8 /* Assets.xcassets */,
+				1FF1DEC32D8A6860004323D8 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		1FF1DEC32D8A6860004323D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FF1DEC42D8A6860004323D8 /* Main.html */,
+				1FF1DEC62D8A6860004323D8 /* Icon.png */,
+				1FF1DEC72D8A6860004323D8 /* Style.css */,
+				1FF1DEC82D8A6860004323D8 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1FF1DECB2D8A6861004323D8 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1FF1DF1F2D8A6861004323D8 /* Resources */,
+				1FF1DECC2D8A6861004323D8 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		1FF1DED22D8A6861004323D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FF1DED12D8A6861004323D8 /* CIA Font Style fix.app */,
+				1FF1DEE32D8A6861004323D8 /* CIA Font Style fix.app */,
+				1FF1DEF02D8A6861004323D8 /* CIA Font Style fix Extension.appex */,
+				1FF1DEFA2D8A6861004323D8 /* CIA Font Style fix Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FF1DED32D8A6861004323D8 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1FF1DED42D8A6861004323D8 /* AppDelegate.swift */,
+				1FF1DED62D8A6861004323D8 /* SceneDelegate.swift */,
+				1FF1DED82D8A6861004323D8 /* LaunchScreen.storyboard */,
+				1FF1DEDB2D8A6861004323D8 /* Main.storyboard */,
+				1FF1DEDE2D8A6861004323D8 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		1FF1DEE42D8A6861004323D8 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1FF1DEE52D8A6861004323D8 /* AppDelegate.swift */,
+				1FF1DEE72D8A6861004323D8 /* Main.storyboard */,
+				1FF1DEEA2D8A6861004323D8 /* Info.plist */,
+				1FF1DEEB2D8A6861004323D8 /* CIA Font Style fix.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		1FF1DEF42D8A6861004323D8 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1FF1DEF52D8A6861004323D8 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		1FF1DEFE2D8A6861004323D8 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1FF1DEFF2D8A6861004323D8 /* Info.plist */,
+				1FF1DF002D8A6861004323D8 /* CIA Font Style fix.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		1FF1DF1F2D8A6861004323D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FF1DF202D8A6861004323D8 /* styles.css */,
+				1FF1DF212D8A6861004323D8 /* icons */,
+				1FF1DF222D8A6861004323D8 /* manifest.json */,
+				1FF1DF232D8A6861004323D8 /* LICENSE.txt */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FF1DED02D8A6861004323D8 /* CIA Font Style fix (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF1DF152D8A6861004323D8 /* Build configuration list for PBXNativeTarget "CIA Font Style fix (iOS)" */;
+			buildPhases = (
+				1FF1DECD2D8A6861004323D8 /* Sources */,
+				1FF1DECE2D8A6861004323D8 /* Frameworks */,
+				1FF1DECF2D8A6861004323D8 /* Resources */,
+				1FF1DF142D8A6861004323D8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FF1DEF32D8A6861004323D8 /* PBXTargetDependency */,
+			);
+			name = "CIA Font Style fix (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "CIA Font Style fix (iOS)";
+			productReference = 1FF1DED12D8A6861004323D8 /* CIA Font Style fix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FF1DEE22D8A6861004323D8 /* CIA Font Style fix (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF1DF1C2D8A6861004323D8 /* Build configuration list for PBXNativeTarget "CIA Font Style fix (macOS)" */;
+			buildPhases = (
+				1FF1DEDF2D8A6861004323D8 /* Sources */,
+				1FF1DEE02D8A6861004323D8 /* Frameworks */,
+				1FF1DEE12D8A6861004323D8 /* Resources */,
+				1FF1DF1B2D8A6861004323D8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FF1DEFD2D8A6861004323D8 /* PBXTargetDependency */,
+			);
+			name = "CIA Font Style fix (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "CIA Font Style fix (macOS)";
+			productReference = 1FF1DEE32D8A6861004323D8 /* CIA Font Style fix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FF1DEEF2D8A6861004323D8 /* CIA Font Style fix Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF1DF112D8A6861004323D8 /* Build configuration list for PBXNativeTarget "CIA Font Style fix Extension (iOS)" */;
+			buildPhases = (
+				1FF1DEEC2D8A6861004323D8 /* Sources */,
+				1FF1DEED2D8A6861004323D8 /* Frameworks */,
+				1FF1DEEE2D8A6861004323D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CIA Font Style fix Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "CIA Font Style fix Extension (iOS)";
+			productReference = 1FF1DEF02D8A6861004323D8 /* CIA Font Style fix Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1FF1DEF92D8A6861004323D8 /* CIA Font Style fix Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF1DF182D8A6861004323D8 /* Build configuration list for PBXNativeTarget "CIA Font Style fix Extension (macOS)" */;
+			buildPhases = (
+				1FF1DEF62D8A6861004323D8 /* Sources */,
+				1FF1DEF72D8A6861004323D8 /* Frameworks */,
+				1FF1DEF82D8A6861004323D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CIA Font Style fix Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "CIA Font Style fix Extension (macOS)";
+			productReference = 1FF1DEFA2D8A6861004323D8 /* CIA Font Style fix Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FF1DEBE2D8A6860004323D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1FF1DED02D8A6861004323D8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1FF1DEE22D8A6861004323D8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1FF1DEEF2D8A6861004323D8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1FF1DEF92D8A6861004323D8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 1FF1DEC12D8A6860004323D8 /* Build configuration list for PBXProject "CIA Font Style fix" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FF1DEBD2D8A6860004323D8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1FF1DED22D8A6861004323D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FF1DED02D8A6861004323D8 /* CIA Font Style fix (iOS) */,
+				1FF1DEE22D8A6861004323D8 /* CIA Font Style fix (macOS) */,
+				1FF1DEEF2D8A6861004323D8 /* CIA Font Style fix Extension (iOS) */,
+				1FF1DEF92D8A6861004323D8 /* CIA Font Style fix Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FF1DECF2D8A6861004323D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF1DF032D8A6861004323D8 /* Icon.png in Resources */,
+				1FF1DEDA2D8A6861004323D8 /* LaunchScreen.storyboard in Resources */,
+				1FF1DF012D8A6861004323D8 /* Main.html in Resources */,
+				1FF1DF072D8A6861004323D8 /* Script.js in Resources */,
+				1FF1DF0B2D8A6861004323D8 /* Assets.xcassets in Resources */,
+				1FF1DEDD2D8A6861004323D8 /* Main.storyboard in Resources */,
+				1FF1DF052D8A6861004323D8 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF1DEE12D8A6861004323D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF1DF042D8A6861004323D8 /* Icon.png in Resources */,
+				1FF1DF062D8A6861004323D8 /* Style.css in Resources */,
+				1FF1DEE92D8A6861004323D8 /* Main.storyboard in Resources */,
+				1FF1DF082D8A6861004323D8 /* Script.js in Resources */,
+				1FF1DF0C2D8A6861004323D8 /* Assets.xcassets in Resources */,
+				1FF1DF022D8A6861004323D8 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF1DEEE2D8A6861004323D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF1DF2B2D8A6861004323D8 /* LICENSE.txt in Resources */,
+				1FF1DF282D8A6861004323D8 /* styles.css in Resources */,
+				1FF1DF2A2D8A6861004323D8 /* manifest.json in Resources */,
+				1FF1DF292D8A6861004323D8 /* icons in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF1DEF82D8A6861004323D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF1DF272D8A6861004323D8 /* LICENSE.txt in Resources */,
+				1FF1DF242D8A6861004323D8 /* styles.css in Resources */,
+				1FF1DF262D8A6861004323D8 /* manifest.json in Resources */,
+				1FF1DF252D8A6861004323D8 /* icons in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FF1DECD2D8A6861004323D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF1DF092D8A6861004323D8 /* ViewController.swift in Sources */,
+				1FF1DED52D8A6861004323D8 /* AppDelegate.swift in Sources */,
+				1FF1DED72D8A6861004323D8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF1DEDF2D8A6861004323D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF1DF0A2D8A6861004323D8 /* ViewController.swift in Sources */,
+				1FF1DEE62D8A6861004323D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF1DEEC2D8A6861004323D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF1DF0D2D8A6861004323D8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF1DEF62D8A6861004323D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF1DF0E2D8A6861004323D8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FF1DEF32D8A6861004323D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FF1DEEF2D8A6861004323D8 /* CIA Font Style fix Extension (iOS) */;
+			targetProxy = 1FF1DEF22D8A6861004323D8 /* PBXContainerItemProxy */;
+		};
+		1FF1DEFD2D8A6861004323D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FF1DEF92D8A6861004323D8 /* CIA Font Style fix Extension (macOS) */;
+			targetProxy = 1FF1DEFC2D8A6861004323D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FF1DEC42D8A6860004323D8 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF1DEC52D8A6860004323D8 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		1FF1DED82D8A6861004323D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF1DED92D8A6861004323D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1FF1DEDB2D8A6861004323D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF1DEDC2D8A6861004323D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FF1DEE72D8A6861004323D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF1DEE82D8A6861004323D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FF1DF0F2D8A6861004323D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FF1DF102D8A6861004323D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1FF1DF122D8A6861004323D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CIA Font Style fix Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkeeling.CIA-Font-Style-fix.Extension";
+				PRODUCT_NAME = "CIA Font Style fix Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FF1DF132D8A6861004323D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CIA Font Style fix Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkeeling.CIA-Font-Style-fix.Extension";
+				PRODUCT_NAME = "CIA Font Style fix Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FF1DF162D8A6861004323D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CIA Font Style fix";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkeeling.CIA-Font-Style-fix";
+				PRODUCT_NAME = "CIA Font Style fix";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FF1DF172D8A6861004323D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CIA Font Style fix";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkeeling.CIA-Font-Style-fix";
+				PRODUCT_NAME = "CIA Font Style fix";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FF1DF192D8A6861004323D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/CIA Font Style fix.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CIA Font Style fix Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkeeling.CIA-Font-Style-fix.Extension";
+				PRODUCT_NAME = "CIA Font Style fix Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1FF1DF1A2D8A6861004323D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/CIA Font Style fix.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CIA Font Style fix Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkeeling.CIA-Font-Style-fix.Extension";
+				PRODUCT_NAME = "CIA Font Style fix Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1FF1DF1D2D8A6861004323D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/CIA Font Style fix.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CIA Font Style fix";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkeeling.CIA-Font-Style-fix";
+				PRODUCT_NAME = "CIA Font Style fix";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1FF1DF1E2D8A6861004323D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/CIA Font Style fix.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CIA Font Style fix";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkeeling.CIA-Font-Style-fix";
+				PRODUCT_NAME = "CIA Font Style fix";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF1DEC12D8A6860004323D8 /* Build configuration list for PBXProject "CIA Font Style fix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF1DF0F2D8A6861004323D8 /* Debug */,
+				1FF1DF102D8A6861004323D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF1DF112D8A6861004323D8 /* Build configuration list for PBXNativeTarget "CIA Font Style fix Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF1DF122D8A6861004323D8 /* Debug */,
+				1FF1DF132D8A6861004323D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF1DF152D8A6861004323D8 /* Build configuration list for PBXNativeTarget "CIA Font Style fix (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF1DF162D8A6861004323D8 /* Debug */,
+				1FF1DF172D8A6861004323D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF1DF182D8A6861004323D8 /* Build configuration list for PBXNativeTarget "CIA Font Style fix Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF1DF192D8A6861004323D8 /* Debug */,
+				1FF1DF1A2D8A6861004323D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF1DF1C2D8A6861004323D8 /* Build configuration list for PBXNativeTarget "CIA Font Style fix (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF1DF1D2D8A6861004323D8 /* Debug */,
+				1FF1DF1E2D8A6861004323D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FF1DEBE2D8A6860004323D8 /* Project object */;
+}

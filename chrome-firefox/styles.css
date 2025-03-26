@@ -1,0 +1,55 @@
+body {
+  font-size: 1rem !important;
+  line-height: 1.4705882353 !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.022em !important;
+  font-family: var(
+    --typography-html-font,
+    'SF Pro Text',
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Helvetica Neue',
+    'Helvetica',
+    'Arial',
+    sans-serif
+  ) !important;
+  color: black !important;
+  font-style: normal !important;
+  word-wrap: break-word !important;
+  --spacing-stacked-margin-small: 0.4em !important;
+  --spacing-stacked-margin-large: 0.8em !important;
+  --spacing-stacked-margin-xlarge: calc(
+    var(--spacing-stacked-margin-large) * 2
+  ) !important;
+  --spacing-param: 1.6470588235rem !important;
+  --declaration-code-listing-margin: 30px 0 0 0 !important;
+  --code-block-style-elements-padding: 8px 14px !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+p,
+.p {
+  font-family: var(
+    --typography-html-font,
+    'SF Pro Text',
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Helvetica Neue',
+    'Helvetica',
+    'Arial',
+    sans-serif
+  ) !important;
+}

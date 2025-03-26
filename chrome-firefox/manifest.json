@@ -1,0 +1,25 @@
+{
+  "name": "CIA Font Style Fix",
+  "description": "Improve legibility of CIA.gov online reading room by overriding GT America font",
+  "version": "1",
+  "manifest_version": 3,
+  "browser_specific_settings": {
+    "gecko_android": {},
+    "gecko": {
+      "id": "{099b6a09-8ac4-4ab3-8663-6fab97babaab}"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "64": "icons/icon64.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.cia.gov/readingroom/*"],
+      "css": ["styles.css"]
+    }
+  ]
+}

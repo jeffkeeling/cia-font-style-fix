@@ -9,13 +9,13 @@ This extension undoes this wrong.
 <br />
 
 <a href="https://addons.mozilla.org/en-US/firefox/addon/cia-font-style-fix/" target="_blank">
-	<img src="https://github.com/jeffkeeling/cia-font-style-fix/blob/main/webstores/firefox.png?raw=true" width="172" height="60">
+	<img src="https://github.com/jeffkeeling/cia-font-style-fix/blob/master/webstores/firefox.png?raw=true" width="172" height="60">
 </a>
 
 <br />
 
 <a href="https://chromewebstore.google.com/detail/jhgjnnpbogkfadgkgnnholeidepininb?utm_source=item-share-cb" target="_blank">
-	<img src="https://github.com/jeffkeeling/cia-font-style-fix/blob/main/webstores/chrome.png?raw=true" width="206" height="58">
+	<img src="https://github.com/jeffkeeling/cia-font-style-fix/blob/master/webstores/chrome.png?raw=true" width="206" height="58">
 </a>
 
 <br />
